@@ -8,15 +8,6 @@ public class listasLinkeadas {
         
         LinkedList <String> lista = new LinkedList<String>();
 
-        /* 
-        lista.push("A");
-        lista.push("B");
-        lista.push("C");
-        lista.push("D");
-        lista.push("F");
-        lista.pop();
-        */
-
         lista.offer("A");
         lista.offer("B");
         lista.offer("C");
@@ -32,8 +23,8 @@ public class listasLinkeadas {
         System.out.println(lista.indexOf("C"));
         lista.addFirst("S");
         lista.addLast("Z");
-        String first = lista.removeFirst();
-        String last = lista.removeLast();
+        lista.removeFirst();
+        lista.removeLast();
 
         System.out.println(lista);
 
