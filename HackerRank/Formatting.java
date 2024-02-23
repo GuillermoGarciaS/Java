@@ -1,8 +1,8 @@
-package Repaso;
+package HackerRank;
 
 import java.util.Scanner;
 
-public class nao {
+public class Formatting {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
