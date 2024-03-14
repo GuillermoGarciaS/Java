@@ -1,4 +1,4 @@
-package AdmSoftware;
+package AdmSoftware.tests;
 
 import junit.framework.TestCase;
 import org.junit.Test;
